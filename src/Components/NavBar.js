@@ -17,7 +17,6 @@ function NavBar() {
     <div>
         <h1>Get to know the New York Yankees</h1>
         <h3>One stop shop to learn more about your favorite baseball team!</h3>
-
         <NavLink
             to="/"
             style={linkStyles}
@@ -46,10 +45,6 @@ function NavBar() {
         >
             Build a player!
         </NavLink>
-
-        <h3>How it works:</h3>
-        <h4>Check out the current roster and compare stats from your favorite players!  </h4>
-        <h4>You can even build new teammates!</h4>
     </div>
   );
 }
