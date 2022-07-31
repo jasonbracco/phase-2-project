@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
   display: "inline-block",
-  width: "75px",
+  width: "150px",
   padding: "15px",
   margin: "0 6px 6px",
   background: "blue",
@@ -20,48 +20,36 @@ function NavBar() {
 
         <NavLink
             to="/"
-            exact
             style={linkStyles}
-            activeStyle={{
-            background: "darkblue",
-            }}
+            background= "darkblue"
         >
             Home
         </NavLink>
         <NavLink
             to="/currentroster"
-            exact
             style={linkStyles}
-            activeStyle={{
-            background: "darkblue",
-            }}
+            background= "darkblue"
         >
             Current Roster
         </NavLink>
         <NavLink
             to="/stats"
-            exact
             style={linkStyles}
-            activeStyle={{
-            background: "darkblue",
-            }}
+            background= "darkblue"
         >
             Player Statistics
         </NavLink>
         <NavLink
             to="/login"
-            exact
             style={linkStyles}
-            activeStyle={{
-            background: "darkblue",
-            }}
+            background= "darkblue"  
         >
             Build a player!
         </NavLink>
 
         <h3>How it works:</h3>
-        <h4>Select a sport from the above options.  Each tab will contain the specific league's teams.</h4>
-        <h4>Select players </h4>
+        <h4>Check out the current roster and compare stats from your favorite players!  </h4>
+        <h4>You can even build new teammates!</h4>
     </div>
   );
 }
