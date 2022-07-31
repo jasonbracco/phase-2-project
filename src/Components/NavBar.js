@@ -15,8 +15,8 @@ const linkStyles = {
 function NavBar() {
   return ( 
     <div>
-        <h1>Multi Sport Fantasy Draft App</h1>
-        <h3>Build a super team for your favorite sport with your favorite players!</h3>
+        <h1>Get to know the New York Yankees</h1>
+        <h3>One stop shop to learn more about your favorite baseball team!</h3>
 
         <NavLink
             to="/"
@@ -29,17 +29,17 @@ function NavBar() {
             Home
         </NavLink>
         <NavLink
-            to="/about"
+            to="/currentroster"
             exact
             style={linkStyles}
             activeStyle={{
             background: "darkblue",
             }}
         >
-            Available Players
+            Current Roster
         </NavLink>
         <NavLink
-            to="/login"
+            to="/stats"
             exact
             style={linkStyles}
             activeStyle={{
@@ -56,7 +56,7 @@ function NavBar() {
             background: "darkblue",
             }}
         >
-            Football
+            Build a player!
         </NavLink>
 
         <h3>How it works:</h3>
