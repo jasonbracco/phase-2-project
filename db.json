@@ -1,0 +1,439 @@
+{
+    "yankees": [
+        {
+            "bats": "R",
+            "firstName": "Albert",
+            "fullName": "Abreu, Albert",
+            "id": "656061",
+            "lastName": "Abreu",
+            "number": "84",
+            "position": "P",
+            "throws": "R"
+        },
+        {
+            "bats": "R",
+            "firstName": "Miguel",
+            "fullName": "Andujar, Miguel",
+            "id": "609280",
+            "lastName": "Andujar",
+            "number": "41",
+            "position": "LF",
+            "throws": "R"
+        },
+        {
+            "bats": "L",
+            "firstName": "Andrew",
+            "fullName": "Benintendi, Andrew",
+            "id": "643217",
+            "lastName": "Benintendi",
+            "number": "18",
+            "position": "LF",
+            "throws": "L"
+        },
+        {
+            "bats": "S",
+            "firstName": "Oswaldo",
+            "fullName": "Cabrera, Oswaldo",
+            "id": "665828",
+            "lastName": "Cabrera",
+            "number": "95",
+            "position": "SS",
+            "throws": "R"
+        },
+        {
+            "bats": "L",
+            "firstName": "Matthew",
+            "fullName": "Carpenter, Matt",
+            "id": "572761",
+            "lastName": "Carpenter",
+            "number": "24",
+            "position": "DH",
+            "throws": "R"
+        },
+        {
+            "bats": "R",
+            "firstName": "Miguel",
+            "fullName": "Castro, Miguel",
+            "id": "612434",
+            "lastName": "Castro",
+            "number": "30",
+            "position": "P",
+            "throws": "R"
+        },
+        {
+            "bats": "L",
+            "firstName": "Albertin",
+            "fullName": "Chapman, Aroldis",
+            "id": "547973",
+            "lastName": "Chapman",
+            "number": "54",
+            "position": "P",
+            "throws": "L"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Gerrit",
+            "fullName": "Cole, Gerrit",
+            "id": "543037",
+            "lastName": "Cole",
+            "number": "45",
+            "position": "P",
+            "throws": "R"
+        },
+        {
+            "bats": "R",
+            "firstName": "Nestor",
+            "fullName": "Cortes, Nestor",
+            "id": "641482",
+            "lastName": "Cortes",
+            "number": "65",
+            "position": "P",
+            "throws": "L"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Joshua",
+            "fullName": "Donaldson, Josh",
+            "id": "518626",
+            "lastName": "Donaldson",
+            "number": "28",
+            "position": "3B",
+            "throws": "R"
+
+        },
+        {
+            "bats": "L",
+            "firstName": "Estevan",
+            "fullName": "Florial, Estevan",
+            "id": "664314",
+            "lastName": "Florial",
+            "number": "90",
+            "position": "CF",
+            "throws": "R"
+
+        },
+        {
+            "bats": "L",
+            "firstName": "Joseph",
+            "fullName": "Gallo, Joey",
+            "id": "608336",
+            "lastName": "Gallo",
+            "number": "13",
+            "position": "LF",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Deivi",
+            "fullName": "Garcia, Deivi",
+            "id": "665620",
+            "lastName": "Garcia",
+            "number": "83",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Domingo",
+            "fullName": "German, Domingo",
+            "id": "593334",
+            "lastName": "German",
+            "number": "55",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Luis",
+            "fullName": "Gil, Luis",
+            "id": "661563",
+            "lastName": "Gil",
+            "number": "81",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "fullName": "Gomez, Yoendrys",
+            "id": "672782",
+            "lastName": "Gomez",
+            "number": "89",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "S",
+            "firstName": "Marwin",
+            "fullName": "Gonzalez, Marwin",
+            "id": "503556",
+            "lastName": "Gonzalez",
+            "number": "14",
+            "position": "SS",
+            "throws": "R"
+
+        },
+        {
+            "bats": "S",
+            "firstName": "Aaron",
+            "fullName": "Hicks, Aaron",
+            "id": "543305",
+            "lastName": "Hicks",
+            "number": "31",
+            "position": "CF",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Kyle",
+            "fullName": "Higashioka, Kyle",
+            "id": "543309",
+            "lastName": "Higashioka",
+            "number": "66",
+            "position": "C",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Clayton",
+            "fullName": "Holmes, Clay",
+            "id": "605280",
+            "lastName": "Holmes",
+            "number": "35",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Aaron",
+            "fullName": "Judge, Aaron",
+            "id": "592450",
+            "lastName": "Judge",
+            "number": "99",
+            "position": "RF",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Isiah",
+            "fullName": "Kiner-Falefa, Isiah",
+            "id": "643396",
+            "lastName": "Kiner-Falefa",
+            "number": "12",
+            "position": "SS",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "David",
+            "fullName": "LeMahieu, DJ",
+            "id": "518934",
+            "lastName": "LeMahieu",
+            "number": "26",
+            "position": "3B",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Jonathan",
+            "fullName": "Loaisiga, Jonathan",
+            "id": "642528",
+            "lastName": "Loaisiga",
+            "number": "43",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Timothy",
+            "fullName": "Locastro, Tim",
+            "id": "641796",
+            "lastName": "Locastro",
+            "number": "33",
+            "position": "OF",
+            "throws": "R"
+
+        },
+        {
+            "bats": "L",
+            "firstName": "Lucas",
+            "fullName": "Luetge, Lucas",
+            "id": "476595",
+            "lastName": "Luetge",
+            "number": "63",
+            "position": "P",
+            "throws": "L"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Ronald",
+            "fullName": "Marinaccio, Ron",
+            "id": "676760",
+            "lastName": "Marinaccio",
+            "number": "97",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Luis",
+            "fullName": "Medina, Luis",
+            "id": "665622",
+            "lastName": "Medina",
+            "number": "80",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "L",
+            "firstName": "Jordan",
+            "fullName": "Montgomery, Jordan",
+            "id": "656756",
+            "lastName": "Montgomery",
+            "number": "47",
+            "position": "P",
+            "throws": "L"
+
+        },
+        {
+            "bats": "L",
+            "firstName": "Wandy",
+            "fullName": "Peralta, Wandy",
+            "id": "593974",
+            "lastName": "Peralta",
+            "number": "58",
+            "position": "P",
+            "throws": "L"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Oswald",
+            "fullName": "Peraza, Oswald",
+            "id": "672724",
+            "lastName": "Peraza",
+            "number": "91",
+            "position": "SS",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Everson",
+            "fullName": "Pereira, Everson",
+            "id": "677592",
+            "lastName": "Pereira",
+            "number": "93",
+            "position": "CF",
+            "throws": "R"
+
+        },
+        {
+            "bats": "L",
+            "firstName": "Anthony",
+            "fullName": "Rizzo, Anthony",
+            "id": "519203",
+            "lastName": "Rizzo",
+            "number": "48",
+            "position": "1B",
+            "throws": "L"
+            
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Clarke",
+            "fullName": "Schmidt, Clarke",
+            "id": "657376",
+            "lastName": "Schmidt",
+            "number": "86",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "John",
+            "fullName": "Sears, JP",
+            "id": "676664",
+            "lastName": "Sears",
+            "number": "92",
+            "position": "P",
+            "throws": "L"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Luis",
+            "fullName": "Severino, Luis",
+            "id": "622663",
+            "lastName": "Severino",
+            "number": "40",
+            "position": "P",
+            "throws": "R"
+            
+        
+        },
+        {
+            "bats": "R",
+            "firstName": "Giancarlo",
+            "fullName": "Stanton, Giancarlo",
+            "id": "519317",
+            "lastName": "Stanton",
+            "number": "27",
+            "position": "DH",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Jameson",
+            "fullName": "Taillon, Jameson",
+            "id": "592791",
+            "lastName": "Taillon",
+            "number": "50",
+            "position": "P",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Gleyber",
+            "fullName": "Torres, Gleyber",
+            "id": "650402",
+            "lastName": "Torres",
+            "number": "25",
+            "position": "2B",
+            "throws": "R"
+
+        },
+        {
+            "bats": "R",
+            "firstName": "Jose",
+            "fullName": "Trevino, Jose",
+            "id": "624431",
+            "lastName": "Trevino",
+            "number": "39",
+            "position": "C",
+            "throws": "R"
+
+        }
+
+    ]
+}
