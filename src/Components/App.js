@@ -16,15 +16,6 @@ function App() {
         <Route exact path="/">
           Home
         </Route>
-        <Route exact path="/Basketball">
-          Basketball
-        </Route>
-        <Route exact path="/Baseball">
-          Baseball
-        </Route>
-        <Route exact path="/Football">
-          Football
-        </Route>
       </Routes>
     </div>
   );
