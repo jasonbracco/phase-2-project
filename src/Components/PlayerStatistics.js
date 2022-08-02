@@ -7,9 +7,10 @@ import PlayerCard from "./PlayerCard"
 function PlayerStatistics({playersDisplayed}){
 
     const [nameSearch, setNameSearch] = useState("")
+    const [positionSearch, setPositionSearch] = useState("")
 
     return(
-        <Searchbars nameSearch={nameSearch} setNameSearch={setNameSearch}/>
+        <Searchbars nameSearch={nameSearch} setNameSearch={setNameSearch} positionSearch={positionSearch} setPositionSearch={setPositionSearch}/>
         
     )
 }
