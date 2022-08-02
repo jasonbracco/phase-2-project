@@ -16,9 +16,7 @@ function App() {
       .then((player) => setPlayers(player))
   },[])
 
-  const playersDisplayed = players.filter((object => {
-      return object
-  }))
+
 
   return (
     <div>
@@ -33,13 +31,13 @@ function App() {
         <Route
           path="/currentroster"
           element={
-            <CurrentRoster playersDisplayed={playersDisplayed}/>
+            <CurrentRoster players={players}/>
           }
         />
                 <Route
           path="/playerstatistics"
           element={
-            <PlayerStatistics playersDisplayed={playersDisplayed}/>
+            <PlayerStatistics players={players}/>
           }
         />
       </Routes>

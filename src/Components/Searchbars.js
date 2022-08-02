@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Searchbars({nameSearch, setNameSearch, positionSearch, setPositionSearch}){
+function Searchbars({nameSearch, setNameSearch, positionSearch, setPositionSearch, searchedPlayers}){
 
     function onNameSearch(event){
         setNameSearch(event.target.value)
@@ -9,6 +9,10 @@ function Searchbars({nameSearch, setNameSearch, positionSearch, setPositionSearc
 
     function onPositionSearch(event){
         setPositionSearch(event.target.value)
+    }
+
+    function handlePlayerSearchSubmit(){
+        searchedPlayers(nameSearch)
     }
    
 
@@ -19,7 +23,7 @@ function Searchbars({nameSearch, setNameSearch, positionSearch, setPositionSearc
                         <span>Search by Player Name: </span>
                 </label>
                 <input type="text" placeholder="Player Name" value={nameSearch} onChange={onNameSearch}/>
-                <button type="submit">Search</button>
+                <button type="submit" onSubmit={handlePlayerSearchSubmit}>Search</button>
             </form>
             <form>
                 <label >

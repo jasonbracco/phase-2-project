@@ -4,18 +4,30 @@ import Searchbars from "./Searchbars"
 import SearchedPlayerCard from "./PlayerCard"
 
 
-function PlayerStatistics({playersDisplayed}){
+function PlayerStatistics({players}){
 
     const [nameSearch, setNameSearch] = useState("")
     const [positionSearch, setPositionSearch] = useState("")
+
+    console.log(players)
+
+    function searchedPlayers(){
+        players.filter((object) => {
+          const lowerCaseSearch = nameSearch.toLowerCase()
+          console.log(lowerCaseSearch)
+          console.log(object.fullName.toLowerCase())
+          if(object.fullName.toLowerCase().includes(lowerCaseSearch)){
+            return object
+          }
+      })}
 
     
 
     return(
         <div id="player_stats">
-            <Searchbars nameSearch={nameSearch} setNameSearch={setNameSearch} positionSearch={positionSearch} setPositionSearch={setPositionSearch}/>
+            <Searchbars nameSearch={nameSearch} setNameSearch={setNameSearch} positionSearch={positionSearch} setPositionSearch={setPositionSearch} searchedPlayers={searchedPlayers}/>
             <div className="player_collection">
-                {playersDisplayed.map((player) => {
+                {players.map((player) => {
                     return <SearchedPlayerCard key={player.id} player={player} />
                 })}           
             </div>
