@@ -39,7 +39,7 @@ function App() {
                 <Route
           path="/playerstatistics"
           element={
-            <PlayerStatistics />
+            <PlayerStatistics playersDisplayed={playersDisplayed}/>
           }
         />
       </Routes>
