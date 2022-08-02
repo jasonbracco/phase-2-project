@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./NavBar"
 import Homepage from "./Homepage"
@@ -7,6 +7,18 @@ import PlayerStatistics from "./PlayerStatistics"
 
 
 function App() {
+
+  const [players, setPlayers] = useState([])
+
+  useEffect(() => {
+      fetch("http://localhost:3000/yankees")
+      .then(response => response.json())
+      .then((player) => setPlayers(player))
+  },[])
+
+  const playersDisplayed = players.filter((object => {
+      return object
+  }))
 
   return (
     <div>
@@ -21,13 +33,13 @@ function App() {
         <Route
           path="/currentroster"
           element={
-            <CurrentRoster />
+            <CurrentRoster playersDisplayed={playersDisplayed}/>
           }
         />
                 <Route
           path="/playerstatistics"
           element={
-            <CurrentRoster />
+            <PlayerStatistics />
           }
         />
       </Routes>

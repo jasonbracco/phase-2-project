@@ -32,7 +32,7 @@ function NavBar() {
             Current Roster
         </NavLink>
         <NavLink
-            to="/stats"
+            to="/playerstatistics"
             style={linkStyles}
             background= "darkblue"
         >
