@@ -10,6 +10,7 @@ function PlayerStatistics({playersDisplayed}){
 
     return(
         <Searchbars nameSearch={nameSearch} setNameSearch={setNameSearch}/>
+        
     )
 }
 
