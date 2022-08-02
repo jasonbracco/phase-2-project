@@ -1,0 +1,30 @@
+.player_collection{
+    margin: 0 auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 20px;
+}
+
+.player_card{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    width: 245px
+
+}
+
+.player_image{
+    justify-self: center;
+    height: 12rem;
+    width: 100%;
+}
+
+.card_content{
+    line-height: 5px;
+    font-size: .8em;
+    padding: 2px;
+    background: #fafafa;
+}
+
+.searchtext{
+    height:15px
+}
