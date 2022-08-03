@@ -34,7 +34,7 @@ function App() {
             <CurrentRoster players={players}/>
           }
         />
-                <Route
+        <Route
           path="/playerstatistics"
           element={
             <PlayerStatistics players={players}/>

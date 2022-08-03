@@ -6,14 +6,9 @@ function Searchbars({nameSearch, setNameSearch, positionSearch, setPositionSearc
     function onNameSearch(event){
         setNameSearch(event.target.value)
     }
-
-    function onPositionSearch(event){
-        setPositionSearch(event.target.value)
-    }
     
     function handlePlayerSearchSubmit(event){
         event.preventDefault()
-        console.log(nameSearch)
         searchedPlayers(nameSearch)
     }
 
