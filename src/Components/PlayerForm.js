@@ -3,6 +3,35 @@ import React from 'react'
 
 function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, number, setNumber, firstName, setFirstName, lastName, setLastName, image, setImage}){
 
+    function handleFirstName(event){
+        setFirstName(event.target.value)
+      }
+
+      function handleLastName(event){
+        setLastName(event.target.value)
+      }
+
+      function handlePosition(event){
+        setPosition(event.target.value)
+      }
+
+      function handleNumber(event){
+        setNumber(event.target.value)
+      }
+
+      function handleBats(event){
+        setBats(event.target.value)
+      }
+
+      function handleThrows(event){
+        setThrows(event.target.value)
+      }
+
+      function handleImage(event){
+        setImage(event.target.value)
+      }
+
+
     function onPlayerSubmit(event){
         event.preventDefault()
         const newPlayer={
