@@ -10,20 +10,21 @@ function Searchbars({nameSearch, setNameSearch, positionSearch, setPositionSearc
     function onPositionSearch(event){
         setPositionSearch(event.target.value)
     }
-
-    function handlePlayerSearchSubmit(){
+    
+    function handlePlayerSearchSubmit(event){
+        event.preventDefault()
+        console.log(nameSearch)
         searchedPlayers(nameSearch)
     }
-   
 
     return(
         <div className="searchbars">
-            <form>
+            <form onSubmit={handlePlayerSearchSubmit}>
                 <label >
-                        <span>Search by Player Name: </span>
+                    <span>Search by Player Name: </span>
                 </label>
                 <input type="text" placeholder="Player Name" value={nameSearch} onChange={onNameSearch}/>
-                <button type="submit" onSubmit={handlePlayerSearchSubmit}>Search</button>
+                <button type="submit">Search</button>
             </form>
             <form>
                 <label >
