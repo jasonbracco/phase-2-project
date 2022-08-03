@@ -4,6 +4,7 @@ import NavBar from "./NavBar"
 import Homepage from "./Homepage"
 import CurrentRoster from "./CurrentRoster"
 import PlayerStatistics from "./PlayerStatistics"
+import PlayerForm from "./PlayerForm"
 
 
 function App() {
@@ -38,6 +39,12 @@ function App() {
           path="/playerstatistics"
           element={
             <PlayerStatistics players={players}/>
+          }
+        />
+      <Route
+          path="/buildaplayer"
+          element={
+            <PlayerForm players={players}/>
           }
         />
       </Routes>
