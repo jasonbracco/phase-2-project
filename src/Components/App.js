@@ -51,7 +51,7 @@ function App() {
       <Route
           path="/buildaplayer"
           element={
-            <PlayerForm players={players}/>
+            <PlayerForm bats={bats} setBats={setBats} throws={throws} setThrows={setThrows} position={position} setPosition={setPosition} number={number} setNumber={setNumber} firstName={firstName} setFirstName={setFirstName} lastName={lastName} setLastName={setLastName} image={image} setImage={setImage}/>
           }
         />
       </Routes>
