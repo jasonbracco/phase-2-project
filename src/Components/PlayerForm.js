@@ -3,10 +3,25 @@ import React from 'react'
 
 function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, number, setNumber, firstName, setFirstName, lastName, setLastName, image, setImage}){
 
+    function onPlayerSubmit(event){
+        event.preventDefault()
+        const newPlayer={
+            "bats": bats,
+            "image": image,
+            "firstName": firstName,
+            "fullName": lastName, firstName,
+            "lastName": lastName,
+            "number": number,
+            "position": position,
+            "throws": throws
+        }
+        
+    }
+
 
     return(
-        <div className="container">
-        <form className="add-toy-form" onSubmit>
+        <div className="new_player_form">
+        <form className="add_player_form" onSubmit={onPlayerSubmit}>
           <h3>Create a player!</h3>
           <input
             type="text"
