@@ -10,6 +10,13 @@ import PlayerForm from "./PlayerForm"
 function App() {
 
   const [players, setPlayers] = useState([])
+  const [bats, setBats]=useState("")
+  const [throws, setThrows]=useState("")
+  const [position, setPosition]=useState("")
+  const [number, setNumber]=useState("")
+  const [firstName, setFirstName]=useState("")
+  const [lastName, setLastName]=useState("")
+  const [image, setImage]=useState("")
 
   useEffect(() => {
       fetch("http://localhost:3000/yankees")
