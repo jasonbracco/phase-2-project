@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "../index.css"
-import Searchbars from "./Searchbars"
+import Searchbar from "./Searchbar"
 import SearchedPlayerCard from "./SearchedPlayerCard"
 
 
@@ -33,7 +33,7 @@ function PlayerStatistics({players}){
 
     return(
         <div id="player_stats">
-            <Searchbars nameSearch={nameSearch} setNameSearch={setNameSearch} searchedPlayers={searchedPlayers}/>
+            <Searchbar nameSearch={nameSearch} setNameSearch={setNameSearch} searchedPlayers={searchedPlayers}/>
             <div className="player_collection">
                 {displaySearchedPlayers.map((player) => {
                     return <SearchedPlayerCard key={player.id} player={player}/>
