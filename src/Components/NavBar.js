@@ -39,7 +39,7 @@ function NavBar() {
             Player Statistics
         </NavLink>
         <NavLink
-            to="/login"
+            to="/buildaplayer"
             style={linkStyles}
             background= "darkblue"  
         >
