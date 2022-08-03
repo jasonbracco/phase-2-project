@@ -15,7 +15,7 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             "position": position,
             "throws": throws
         }
-        
+
     }
 
 
@@ -27,7 +27,7 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             type="text"
             name="first name"
             value={firstName}
-            onChange
+            onChange={handleFirstName}
             placeholder="First Name"
             className="input-text"
           />
@@ -36,7 +36,7 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             type="text"
             name="last name"
             value={lastName}
-            onChange
+            onChange={handleLastName}
             placeholder="Last Name"
             className="input-text"
           />
@@ -45,7 +45,7 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             type="text"
             name="position"
             value={position}
-            onChange
+            onChange={handlePosition}
             placeholder="Position"
             className="input-text"
           />
@@ -54,7 +54,7 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             type="text"
             name="number"
             value={number}
-            onChange
+            onChange={handleNumber}
             placeholder="Number"
             className="input-text"
           />
@@ -63,7 +63,7 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             type="text"
             name="bats"
             value={bats}
-            onChange
+            onChange={handleBats}
             placeholder="Bats"
             className="input-text"
           />
@@ -72,7 +72,7 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             type="text"
             name="throws"
             value={throws}
-            onChange
+            onChange={handleThrows}
             placeholder="Throws"
             className="input-text"
           />
@@ -81,7 +81,7 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             type="text"
             name="image"
             value={image}
-            onChange
+            onChange={handleImage}
             placeholder="Image URL"
             className="input-text"
           />
