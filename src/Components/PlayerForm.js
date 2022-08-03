@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, number, setNumber, firstName, setFirstName, lastName, setLastName, image, setImage}){
+function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, number, setNumber, firstName, setFirstName, lastName, setLastName, image, setImage, onAddPlayer}){
 
     function handleFirstName(event){
         setFirstName(event.target.value)
@@ -38,15 +38,22 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
             "bats": bats,
             "image": image,
             "firstName": firstName,
-            "fullName": lastName, firstName,
+            "fullName": (lastName, firstName),
             "lastName": lastName,
             "number": number,
             "position": position,
             "throws": throws
         }
-
+        fetch("http://localhost:3000/yankees", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(newPlayer),
+        })
+        .then(response => response.json())
+        .then(newPlayer => onAddPlayer(newPlayer))
     }
-
 
     return(
         <div className="new_player_form">

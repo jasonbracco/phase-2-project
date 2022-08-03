@@ -1,480 +1,455 @@
 {
-    "yankees": [
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36041.png",
-            "firstName": "Albert",
-            "fullName": "Abreu, Albert",
-            "id": "656061",
-            "lastName": "Abreu",
-            "number": "84",
-            "position": "P",
-            "throws": "R"
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33743.png&w=350&h=254",
-            "firstName": "Miguel",
-            "fullName": "Andujar, Miguel",
-            "id": "609280",
-            "lastName": "Andujar",
-            "number": "41",
-            "position": "LF",
-            "throws": "R"
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/34986.png&w=350&h=254",
-            "firstName": "Andrew",
-            "fullName": "Benintendi, Andrew",
-            "id": "643217",
-            "lastName": "Benintendi",
-            "number": "18",
-            "position": "LF",
-            "throws": "L"
-        },
-        {
-            "bats": "S",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40835.png&w=350&h=254",
-            "firstName": "Oswaldo",
-            "fullName": "Cabrera, Oswaldo",
-            "id": "665828",
-            "lastName": "Cabrera",
-            "number": "95",
-            "position": "SS",
-            "throws": "R"
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31015.png&w=350&h=254",
-            "firstName": "Matthew",
-            "fullName": "Carpenter, Matt",
-            "id": "572761",
-            "lastName": "Carpenter",
-            "number": "24",
-            "position": "DH",
-            "throws": "R"
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33820.png&w=350&h=254",
-            "firstName": "Miguel",
-            "fullName": "Castro, Miguel",
-            "id": "612434",
-            "lastName": "Castro",
-            "number": "30",
-            "position": "P",
-            "throws": "R"
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30442.png&w=350&h=254",
-            "firstName": "Albertin",
-            "fullName": "Chapman, Aroldis",
-            "id": "547973",
-            "lastName": "Chapman",
-            "number": "54",
-            "position": "P",
-            "throws": "L"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32081.png&w=350&h=254",
-            "firstName": "Gerrit",
-            "fullName": "Cole, Gerrit",
-            "id": "543037",
-            "lastName": "Cole",
-            "number": "45",
-            "position": "P",
-            "throws": "R"
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36480.png&w=350&h=254",
-            "firstName": "Nestor",
-            "fullName": "Cortes, Nestor",
-            "id": "641482",
-            "lastName": "Cortes",
-            "number": "65",
-            "position": "P",
-            "throws": "L"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/29563.png&w=350&h=254",
-            "firstName": "Joshua",
-            "fullName": "Donaldson, Josh",
-            "id": "518626",
-            "lastName": "Donaldson",
-            "number": "28",
-            "position": "3B",
-            "throws": "R"
-
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36636.png&w=350&h=254",
-            "firstName": "Estevan",
-            "fullName": "Florial, Estevan",
-            "id": "664314",
-            "lastName": "Florial",
-            "number": "90",
-            "position": "CF",
-            "throws": "R"
-
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32818.png&w=350&h=254",
-            "firstName": "Joseph",
-            "fullName": "Gallo, Joey",
-            "id": "608336",
-            "lastName": "Gallo",
-            "number": "13",
-            "position": "LF",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41218.png&w=350&h=254",
-            "firstName": "Deivi",
-            "fullName": "Garcia, Deivi",
-            "id": "665620",
-            "lastName": "Garcia",
-            "number": "83",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33660.png&w=350&h=254",
-            "firstName": "Domingo",
-            "fullName": "German, Domingo",
-            "id": "593334",
-            "lastName": "German",
-            "number": "55",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40626.png&w=350&h=254",
-            "firstName": "Luis",
-            "fullName": "Gil, Luis",
-            "id": "661563",
-            "lastName": "Gil",
-            "number": "81",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42898.png&w=350&h=254",
-            "firstName": "Yoendrys",
-            "fullName": "Gomez, Yoendrys",
-            "id": "672782",
-            "lastName": "Gomez",
-            "number": "89",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "S",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30327.png&w=350&h=254",
-            "firstName": "Marwin",
-            "fullName": "Gonzalez, Marwin",
-            "id": "503556",
-            "lastName": "Gonzalez",
-            "number": "14",
-            "position": "SS",
-            "throws": "R"
-
-        },
-        {
-            "bats": "S",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31253.png&w=350&h=254",
-            "firstName": "Aaron",
-            "fullName": "Hicks, Aaron",
-            "id": "543305",
-            "lastName": "Hicks",
-            "number": "31",
-            "position": "CF",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30545.png&w=350&h=254",
-            "firstName": "Kyle",
-            "fullName": "Higashioka, Kyle",
-            "id": "543309",
-            "lastName": "Higashioka",
-            "number": "66",
-            "position": "C",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32827.png&w=350&h=254",
-            "firstName": "Clayton",
-            "fullName": "Holmes, Clay",
-            "id": "605280",
-            "lastName": "Holmes",
-            "number": "35",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33192.png&w=350&h=254",
-            "firstName": "Aaron",
-            "fullName": "Judge, Aaron",
-            "id": "592450",
-            "lastName": "Judge",
-            "number": "99",
-            "position": "RF",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33572.png&w=350&h=254",
-            "firstName": "Isiah",
-            "fullName": "Kiner-Falefa, Isiah",
-            "id": "643396",
-            "lastName": "Kiner-Falefa",
-            "number": "12",
-            "position": "SS",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30765.png&w=350&h=254",
-            "firstName": "David",
-            "fullName": "LeMahieu, DJ",
-            "id": "518934",
-            "lastName": "LeMahieu",
-            "number": "26",
-            "position": "3B",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39807.png&w=350&h=254",
-            "firstName": "Jonathan",
-            "fullName": "Loaisiga, Jonathan",
-            "id": "642528",
-            "lastName": "Loaisiga",
-            "number": "43",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/35779.png&w=350&h=254",
-            "firstName": "Timothy",
-            "fullName": "Locastro, Tim",
-            "id": "641796",
-            "lastName": "Locastro",
-            "number": "33",
-            "position": "OF",
-            "throws": "R"
-
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32030.png&w=350&h=254",
-            "firstName": "Lucas",
-            "fullName": "Luetge, Lucas",
-            "id": "476595",
-            "lastName": "Luetge",
-            "number": "63",
-            "position": "P",
-            "throws": "L"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4228723.png&w=350&h=254",
-            "firstName": "Ronald",
-            "fullName": "Marinaccio, Ron",
-            "id": "676760",
-            "lastName": "Marinaccio",
-            "number": "97",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40949.png&w=350&h=254",
-            "firstName": "Luis",
-            "fullName": "Medina, Luis",
-            "id": "665622",
-            "lastName": "Medina",
-            "number": "80",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/38173.png&w=350&h=254",
-            "firstName": "Jordan",
-            "fullName": "Montgomery, Jordan",
-            "id": "656756",
-            "lastName": "Montgomery",
-            "number": "47",
-            "position": "P",
-            "throws": "L"
-
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36036.png&w=350&h=254",
-            "firstName": "Wandy",
-            "fullName": "Peralta, Wandy",
-            "id": "593974",
-            "lastName": "Peralta",
-            "number": "58",
-            "position": "P",
-            "throws": "L"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42479.png&w=350&h=254",
-            "firstName": "Oswald",
-            "fullName": "Peraza, Oswald",
-            "id": "672724",
-            "lastName": "Peraza",
-            "number": "91",
-            "position": "SS",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41252.png&w=350&h=254",
-            "firstName": "Everson",
-            "fullName": "Pereira, Everson",
-            "id": "677592",
-            "lastName": "Pereira",
-            "number": "93",
-            "position": "CF",
-            "throws": "R"
-
-        },
-        {
-            "bats": "L",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30782.png&w=350&h=254",
-            "firstName": "Anthony",
-            "fullName": "Rizzo, Anthony",
-            "id": "519203",
-            "lastName": "Rizzo",
-            "number": "48",
-            "position": "1B",
-            "throws": "L"
-            
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41085.png&w=350&h=254",
-            "firstName": "Clarke",
-            "fullName": "Schmidt, Clarke",
-            "id": "657376",
-            "lastName": "Schmidt",
-            "number": "86",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39818.png&w=350&h=254",
-            "firstName": "John",
-            "fullName": "Sears, JP",
-            "id": "676664",
-            "lastName": "Sears",
-            "number": "92",
-            "position": "P",
-            "throws": "L"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33263.png&w=350&h=254",
-            "firstName": "Luis",
-            "fullName": "Severino, Luis",
-            "id": "622663",
-            "lastName": "Severino",
-            "number": "40",
-            "position": "P",
-            "throws": "R"
-            
-        
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30583.png&w=350&h=254",
-            "firstName": "Giancarlo",
-            "fullName": "Stanton, Giancarlo",
-            "id": "519317",
-            "lastName": "Stanton",
-            "number": "27",
-            "position": "DH",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31258.png&w=350&h=254",
-            "firstName": "Jameson",
-            "fullName": "Taillon, Jameson",
-            "id": "592791",
-            "lastName": "Taillon",
-            "number": "50",
-            "position": "P",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33804.png&w=350&h=254",
-            "firstName": "Gleyber",
-            "fullName": "Torres, Gleyber",
-            "id": "650402",
-            "lastName": "Torres",
-            "number": "25",
-            "position": "2B",
-            "throws": "R"
-
-        },
-        {
-            "bats": "R",
-            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/35268.png&w=350&h=254",
-            "firstName": "Jose",
-            "fullName": "Trevino, Jose",
-            "id": "624431",
-            "lastName": "Trevino",
-            "number": "39",
-            "position": "C",
-            "throws": "R"
-
-        }
-
-    ]
+  "yankees": [
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36041.png",
+      "firstName": "Albert",
+      "fullName": "Abreu, Albert",
+      "id": "656061",
+      "lastName": "Abreu",
+      "number": "84",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33743.png&w=350&h=254",
+      "firstName": "Miguel",
+      "fullName": "Andujar, Miguel",
+      "id": "609280",
+      "lastName": "Andujar",
+      "number": "41",
+      "position": "LF",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/34986.png&w=350&h=254",
+      "firstName": "Andrew",
+      "fullName": "Benintendi, Andrew",
+      "id": "643217",
+      "lastName": "Benintendi",
+      "number": "18",
+      "position": "LF",
+      "throws": "L"
+    },
+    {
+      "bats": "S",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40835.png&w=350&h=254",
+      "firstName": "Oswaldo",
+      "fullName": "Cabrera, Oswaldo",
+      "id": "665828",
+      "lastName": "Cabrera",
+      "number": "95",
+      "position": "SS",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31015.png&w=350&h=254",
+      "firstName": "Matthew",
+      "fullName": "Carpenter, Matt",
+      "id": "572761",
+      "lastName": "Carpenter",
+      "number": "24",
+      "position": "DH",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33820.png&w=350&h=254",
+      "firstName": "Miguel",
+      "fullName": "Castro, Miguel",
+      "id": "612434",
+      "lastName": "Castro",
+      "number": "30",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30442.png&w=350&h=254",
+      "firstName": "Albertin",
+      "fullName": "Chapman, Aroldis",
+      "id": "547973",
+      "lastName": "Chapman",
+      "number": "54",
+      "position": "P",
+      "throws": "L"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32081.png&w=350&h=254",
+      "firstName": "Gerrit",
+      "fullName": "Cole, Gerrit",
+      "id": "543037",
+      "lastName": "Cole",
+      "number": "45",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36480.png&w=350&h=254",
+      "firstName": "Nestor",
+      "fullName": "Cortes, Nestor",
+      "id": "641482",
+      "lastName": "Cortes",
+      "number": "65",
+      "position": "P",
+      "throws": "L"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/29563.png&w=350&h=254",
+      "firstName": "Joshua",
+      "fullName": "Donaldson, Josh",
+      "id": "518626",
+      "lastName": "Donaldson",
+      "number": "28",
+      "position": "3B",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36636.png&w=350&h=254",
+      "firstName": "Estevan",
+      "fullName": "Florial, Estevan",
+      "id": "664314",
+      "lastName": "Florial",
+      "number": "90",
+      "position": "CF",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32818.png&w=350&h=254",
+      "firstName": "Joseph",
+      "fullName": "Gallo, Joey",
+      "id": "608336",
+      "lastName": "Gallo",
+      "number": "13",
+      "position": "LF",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41218.png&w=350&h=254",
+      "firstName": "Deivi",
+      "fullName": "Garcia, Deivi",
+      "id": "665620",
+      "lastName": "Garcia",
+      "number": "83",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33660.png&w=350&h=254",
+      "firstName": "Domingo",
+      "fullName": "German, Domingo",
+      "id": "593334",
+      "lastName": "German",
+      "number": "55",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40626.png&w=350&h=254",
+      "firstName": "Luis",
+      "fullName": "Gil, Luis",
+      "id": "661563",
+      "lastName": "Gil",
+      "number": "81",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42898.png&w=350&h=254",
+      "firstName": "Yoendrys",
+      "fullName": "Gomez, Yoendrys",
+      "id": "672782",
+      "lastName": "Gomez",
+      "number": "89",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "S",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30327.png&w=350&h=254",
+      "firstName": "Marwin",
+      "fullName": "Gonzalez, Marwin",
+      "id": "503556",
+      "lastName": "Gonzalez",
+      "number": "14",
+      "position": "SS",
+      "throws": "R"
+    },
+    {
+      "bats": "S",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31253.png&w=350&h=254",
+      "firstName": "Aaron",
+      "fullName": "Hicks, Aaron",
+      "id": "543305",
+      "lastName": "Hicks",
+      "number": "31",
+      "position": "CF",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30545.png&w=350&h=254",
+      "firstName": "Kyle",
+      "fullName": "Higashioka, Kyle",
+      "id": "543309",
+      "lastName": "Higashioka",
+      "number": "66",
+      "position": "C",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32827.png&w=350&h=254",
+      "firstName": "Clayton",
+      "fullName": "Holmes, Clay",
+      "id": "605280",
+      "lastName": "Holmes",
+      "number": "35",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33192.png&w=350&h=254",
+      "firstName": "Aaron",
+      "fullName": "Judge, Aaron",
+      "id": "592450",
+      "lastName": "Judge",
+      "number": "99",
+      "position": "RF",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33572.png&w=350&h=254",
+      "firstName": "Isiah",
+      "fullName": "Kiner-Falefa, Isiah",
+      "id": "643396",
+      "lastName": "Kiner-Falefa",
+      "number": "12",
+      "position": "SS",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30765.png&w=350&h=254",
+      "firstName": "David",
+      "fullName": "LeMahieu, DJ",
+      "id": "518934",
+      "lastName": "LeMahieu",
+      "number": "26",
+      "position": "3B",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39807.png&w=350&h=254",
+      "firstName": "Jonathan",
+      "fullName": "Loaisiga, Jonathan",
+      "id": "642528",
+      "lastName": "Loaisiga",
+      "number": "43",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/35779.png&w=350&h=254",
+      "firstName": "Timothy",
+      "fullName": "Locastro, Tim",
+      "id": "641796",
+      "lastName": "Locastro",
+      "number": "33",
+      "position": "OF",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32030.png&w=350&h=254",
+      "firstName": "Lucas",
+      "fullName": "Luetge, Lucas",
+      "id": "476595",
+      "lastName": "Luetge",
+      "number": "63",
+      "position": "P",
+      "throws": "L"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4228723.png&w=350&h=254",
+      "firstName": "Ronald",
+      "fullName": "Marinaccio, Ron",
+      "id": "676760",
+      "lastName": "Marinaccio",
+      "number": "97",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/40949.png&w=350&h=254",
+      "firstName": "Luis",
+      "fullName": "Medina, Luis",
+      "id": "665622",
+      "lastName": "Medina",
+      "number": "80",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/38173.png&w=350&h=254",
+      "firstName": "Jordan",
+      "fullName": "Montgomery, Jordan",
+      "id": "656756",
+      "lastName": "Montgomery",
+      "number": "47",
+      "position": "P",
+      "throws": "L"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36036.png&w=350&h=254",
+      "firstName": "Wandy",
+      "fullName": "Peralta, Wandy",
+      "id": "593974",
+      "lastName": "Peralta",
+      "number": "58",
+      "position": "P",
+      "throws": "L"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42479.png&w=350&h=254",
+      "firstName": "Oswald",
+      "fullName": "Peraza, Oswald",
+      "id": "672724",
+      "lastName": "Peraza",
+      "number": "91",
+      "position": "SS",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41252.png&w=350&h=254",
+      "firstName": "Everson",
+      "fullName": "Pereira, Everson",
+      "id": "677592",
+      "lastName": "Pereira",
+      "number": "93",
+      "position": "CF",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30782.png&w=350&h=254",
+      "firstName": "Anthony",
+      "fullName": "Rizzo, Anthony",
+      "id": "519203",
+      "lastName": "Rizzo",
+      "number": "48",
+      "position": "1B",
+      "throws": "L"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41085.png&w=350&h=254",
+      "firstName": "Clarke",
+      "fullName": "Schmidt, Clarke",
+      "id": "657376",
+      "lastName": "Schmidt",
+      "number": "86",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39818.png&w=350&h=254",
+      "firstName": "John",
+      "fullName": "Sears, JP",
+      "id": "676664",
+      "lastName": "Sears",
+      "number": "92",
+      "position": "P",
+      "throws": "L"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33263.png&w=350&h=254",
+      "firstName": "Luis",
+      "fullName": "Severino, Luis",
+      "id": "622663",
+      "lastName": "Severino",
+      "number": "40",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30583.png&w=350&h=254",
+      "firstName": "Giancarlo",
+      "fullName": "Stanton, Giancarlo",
+      "id": "519317",
+      "lastName": "Stanton",
+      "number": "27",
+      "position": "DH",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31258.png&w=350&h=254",
+      "firstName": "Jameson",
+      "fullName": "Taillon, Jameson",
+      "id": "592791",
+      "lastName": "Taillon",
+      "number": "50",
+      "position": "P",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33804.png&w=350&h=254",
+      "firstName": "Gleyber",
+      "fullName": "Torres, Gleyber",
+      "id": "650402",
+      "lastName": "Torres",
+      "number": "25",
+      "position": "2B",
+      "throws": "R"
+    },
+    {
+      "bats": "R",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/35268.png&w=350&h=254",
+      "firstName": "Jose",
+      "fullName": "Trevino, Jose",
+      "id": "624431",
+      "lastName": "Trevino",
+      "number": "39",
+      "position": "C",
+      "throws": "R"
+    },
+    {
+      "bats": "L",
+      "image": "data:image/jpeg;base64,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",
+      "firstName": "Jason",
+      "fullName": "Jason",
+      "lastName": "Bracco",
+      "number": "15",
+      "position": "C",
+      "throws": "R",
+      "id": "FBCOV0K"
+    }
+  ]
 }

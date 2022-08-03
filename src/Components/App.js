@@ -24,6 +24,10 @@ function App() {
       .then((player) => setPlayers(player))
   },[])
 
+  function onAddPlayer(newPlayer){
+    return [...players, newPlayer]
+  }
+
 
 
   return (
@@ -51,7 +55,7 @@ function App() {
       <Route
           path="/buildaplayer"
           element={
-            <PlayerForm bats={bats} setBats={setBats} throws={throws} setThrows={setThrows} position={position} setPosition={setPosition} number={number} setNumber={setNumber} firstName={firstName} setFirstName={setFirstName} lastName={lastName} setLastName={setLastName} image={image} setImage={setImage}/>
+            <PlayerForm bats={bats} setBats={setBats} throws={throws} setThrows={setThrows} position={position} setPosition={setPosition} number={number} setNumber={setNumber} firstName={firstName} setFirstName={setFirstName} lastName={lastName} setLastName={setLastName} image={image} setImage={setImage} onAddPlayer={onAddPlayer}/>
           }
         />
       </Routes>
