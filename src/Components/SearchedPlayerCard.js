@@ -4,22 +4,23 @@ import "../index.css"
 function SearchedPlayerCard({player}){
 
     const [flipped, setFlipped]=useState(true)
-    const [playerStats, setPlayerStats]=useState([])
+    const [hitterStats, setHitterStats]=useState([])
+    const [pitcherStats, setPitcherStats]=useState([])
 
     const {id, bats, throws, image, firstName, lastName, number, position, fullName} = player
 
     useEffect(() => {
         if (position !=="P"){
-            fetch(`http://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2017'&player_id=${id}`)
+            fetch(`http://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2021'&player_id=${id}`)
             .then(response => response.json())
-            .then((stats) => setPlayerStats(stats.sport_hitting_tm.queryResults.row))
+            .then((stats) => setHitterStats(stats.sport_hitting_tm.queryResults.row))
         }
         else {
-            fetch(`http://lookup-service-prod.mlb.com/json/named.sport_pitching_tm.bam?league_list_id='mlb'&game_type='R'&season='2017'&player_id=${id}`)
+            fetch(`http://lookup-service-prod.mlb.com/json/named.sport_pitching_tm.bam?league_list_id='mlb'&game_type='R'&season='2021'&player_id=${id}`)
             .then(response => response.json())
-            .then((stats) => setPlayerStats(stats.sport_hitting_tm.queryResults.row))
+            .then((stats) => setPitcherStats(stats.sport_hitting_tm.queryResults.row))
             }
-    },[id])
+    },[position, id])
 
     function handleFlipped(){
         if (position==="P"){
@@ -47,10 +48,10 @@ function SearchedPlayerCard({player}){
                 <img src={image} alt={fullName} className="player_image"/>
                 <div className="card_content">
                     <h4>{firstName} {lastName}</h4>
-                    <p>Average: {playerStats.avg}</p>
-                    <p>Home Runs: {playerStats.hr}</p>
-                    <p>RBIs: {playerStats.rbi}</p>
-                    <p>OBP: {playerStats.obp}</p>
+                    <p>Average: {hitterStats.avg}</p>
+                    <p>Home Runs: {hitterStats.hr}</p>
+                    <p>RBIs: {hitterStats.rbi}</p>
+                    <p>OBP: {hitterStats.obp}</p>
                 </div>
             </div>}
         </div>
