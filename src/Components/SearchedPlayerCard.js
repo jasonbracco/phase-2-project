@@ -15,7 +15,7 @@ function SearchedPlayerCard({player}){
             .then((stats) => setPlayerStats(stats.sport_hitting_tm.queryResults.row))
         }
         else {
-            fetch(`http://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2017'&player_id=${id}`)
+            fetch(`http://lookup-service-prod.mlb.com/json/named.sport_pitching_tm.bam?league_list_id='mlb'&game_type='R'&season='2017'&player_id=${id}`)
             .then(response => response.json())
             .then((stats) => setPlayerStats(stats.sport_hitting_tm.queryResults.row))
             }
