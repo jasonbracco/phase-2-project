@@ -9,9 +9,16 @@ function SearchedPlayerCard({player}){
     const {id, bats, throws, image, firstName, lastName, number, position, fullName} = player
 
     useEffect(() => {
-        fetch(`http://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2017'&player_id=${id}`)
-        .then(response => response.json())
-        .then((stats) => setPlayerStats(stats.sport_hitting_tm.queryResults.row))
+        if (position !=="P"){
+            fetch(`http://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2017'&player_id=${id}`)
+            .then(response => response.json())
+            .then((stats) => setPlayerStats(stats.sport_hitting_tm.queryResults.row))
+        }
+        else {
+            fetch(`http://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2017'&player_id=${id}`)
+            .then(response => response.json())
+            .then((stats) => setPlayerStats(stats.sport_hitting_tm.queryResults.row))
+            }
     },[id])
 
     function handleFlipped(){
