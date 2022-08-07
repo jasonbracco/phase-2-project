@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react"
+import HitterBack from "./HitterBack"
+import PitcherBack from "./PitcherBack"
 import "../index.css"
 
 function SearchedPlayerCard({player}){
 
-    const [flipped, setFlipped]=useState(true)
     const [hitterStats, setHitterStats]=useState([])
     const [pitcherStats, setPitcherStats]=useState([])
 
@@ -24,16 +25,17 @@ function SearchedPlayerCard({player}){
 
     function handleFlipped(){
         if (position==="P"){
-            return alert("This is a pitcher, and nobody cares about their stats")
+            return <PitcherBack image={image} fullName={fullName} firstName={firstName} lastName={lastName}
+            pitcherStats={pitcherStats}/>
         }
-        else{
-        setFlipped(!flipped)
+        else {
+            return <HitterBack image={image} fullName={fullName} firstName={firstName} lastName={lastName}
+            hitterStats={hitterStats}/>
         }
     }
 
     return(
         <div className="player_card" onClick={handleFlipped}>
-            {flipped ? 
             <div className="front">
                 <img src={image} alt={fullName} className="player_image"/>
                 <div className="card_content">
@@ -43,17 +45,7 @@ function SearchedPlayerCard({player}){
                     <p>Bats: {bats}</p>
                     <p>Throws: {throws}</p>
                 </div>
-            </div>:
-            <div className="back">
-                <img src={image} alt={fullName} className="player_image"/>
-                <div className="card_content">
-                    <h4>{firstName} {lastName}</h4>
-                    <p>Average: {hitterStats.avg}</p>
-                    <p>Home Runs: {hitterStats.hr}</p>
-                    <p>RBIs: {hitterStats.rbi}</p>
-                    <p>OBP: {hitterStats.obp}</p>
-                </div>
-            </div>}
+            </div>
         </div>
 
     )
