@@ -53,6 +53,13 @@ function PlayerForm({bats, setBats, throws, setThrows, position, setPosition, nu
         })
         .then(response => response.json())
         .then(newPlayer => onAddPlayer(newPlayer))
+        setFirstName("")
+        setLastName("")
+        setImage("")
+        setNumber("")
+        setPosition("")
+        setBats("")
+        setThrows("")
     }
 
     return(
