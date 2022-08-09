@@ -25,23 +25,11 @@ function SearchedPlayerCard({player}){
             .then(response => response.json())
             .then((stats) => setPitcherStats(stats.sport_pitching_tm.queryResults.row))
             }
-    },[position, id, isPitcher])
+    },[position, id])
 
     function handleFlipped(){
         setFlipped(!flipped)
     }
-
-
-    // function backSideFunction(){
-    //     if (position==="P"){
-    //         return <PitcherBack image={image} fullName={fullName} firstName={firstName} lastName={lastName}
-    //         pitcherStats={pitcherStats}/>
-    //     }
-    //     else {
-    //         <HitterBack image={image} fullName={fullName} firstName={firstName} lastName={lastName}
-    //             hitterStats={hitterStats}/>
-    //     }
-    // }
 
     return(
         <div className="player_card" onClick={handleFlipped}>
@@ -57,10 +45,10 @@ function SearchedPlayerCard({player}){
                     </div>
                 </div>:
                 isPitcher ?
-                <PitcherBack image={image} fullName={fullName} firstName={firstName} lastName={lastName}
-                pitcherStats={pitcherStats}/>:
-                <HitterBack image={image} fullName={fullName} firstName={firstName} lastName={lastName}
-                hitterStats={hitterStats}/>
+                    <PitcherBack image={image} fullName={fullName} firstName={firstName} lastName={lastName}
+                    pitcherStats={pitcherStats}/>:
+                    <HitterBack image={image} fullName={fullName} firstName={firstName} lastName={lastName}
+                    hitterStats={hitterStats}/>
             }
         </div>
 
