@@ -1,22 +1,13 @@
 import React from 'react'
 
 
-function Searchbars({nameSearch, setNameSearch, searchedPlayers}){
-
-    function onNameSearch(event){
-        setNameSearch(event.target.value)
-    }
-    
-    function handlePlayerSearchSubmit(event){
-        event.preventDefault()
-        searchedPlayers(nameSearch)
-    }
+function Searchbar(){
 
     return(
         <div className="searchbars">
             <form onSubmit={handlePlayerSearchSubmit}>
                 <label >
-                    <span>Search by Player Name: </span>
+                    <span>Search by Shoe Name: </span>
                 </label>
                 <input type="text" placeholder="Player Name" value={nameSearch} onChange={onNameSearch}/>
                 <button type="submit">Search</button>
@@ -25,4 +16,4 @@ function Searchbars({nameSearch, setNameSearch, searchedPlayers}){
     )
 }
 
-export default Searchbars
+export default Searchbar

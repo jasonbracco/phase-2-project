@@ -2,33 +2,21 @@ import React, {useState, useEffect} from "react";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./NavBar"
 import Homepage from "./Homepage"
-import CurrentRoster from "./CurrentRoster"
-import PlayerStatistics from "./PlayerStatistics"
-import PlayerForm from "./PlayerForm"
+import FavoriteShoes from "./FavoriteShoes"
+import ShoeInfo from "./ShoeInfo"
+import ShoeForm from "./ShoeForm"
 
 
 function App() {
 
   const [players, setPlayers] = useState([])
-  const [bats, setBats]=useState("")
-  const [throws, setThrows]=useState("")
-  const [position, setPosition]=useState("")
-  const [number, setNumber]=useState("")
-  const [firstName, setFirstName]=useState("")
-  const [lastName, setLastName]=useState("")
-  const [image, setImage]=useState("")
+
 
   useEffect(() => {
-      fetch("http://localhost:3000/yankees")
+      fetch("http://localhost:9292")
       .then(response => response.json())
-      .then((player) => setPlayers(player))
+      .then(() => setPlayers())
   },[])
-
-  function onAddPlayer(newPlayer){
-    return [...players, newPlayer]
-  }
-
-
 
   return (
     <div>
@@ -41,21 +29,21 @@ function App() {
           }
         />
         <Route
-          path="/currentroster"
+          path="/favoriteshoes"
           element={
-            <CurrentRoster players={players}/>
+            <FavoriteShoes/>
           }
         />
         <Route
-          path="/playerstatistics"
+          path="/shoeinfo"
           element={
-            <PlayerStatistics players={players}/>
+            <ShoeInfo/>
           }
         />
       <Route
-          path="/buildaplayer"
+          path="/addshoes"
           element={
-            <PlayerForm bats={bats} setBats={setBats} throws={throws} setThrows={setThrows} position={position} setPosition={setPosition} number={number} setNumber={setNumber} firstName={firstName} setFirstName={setFirstName} lastName={lastName} setLastName={setLastName} image={image} setImage={setImage} onAddPlayer={onAddPlayer}/>
+            <ShoeForm/>
           }
         />
       </Routes>

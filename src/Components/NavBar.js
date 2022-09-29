@@ -15,8 +15,8 @@ const linkStyles = {
 function NavBar() {
   return ( 
     <div>
-        <h1>Get to know the New York Yankees</h1>
-        <h3>One stop shop to learn more about your favorite baseball team!</h3>
+        <h1>Shoe Collector</h1>
+        <h3>Build a collection of your favorite kicks!</h3>
         <NavLink
             to="/"
             style={linkStyles}
@@ -25,25 +25,25 @@ function NavBar() {
             Home
         </NavLink>
         <NavLink
-            to="/currentroster"
+            to="/favoriteshoes"
             style={linkStyles}
             background= "darkblue"
         >
-            Current Roster
+            Favorite Shoes
         </NavLink>
         <NavLink
-            to="/playerstatistics"
+            to="/shoeinfo"
             style={linkStyles}
             background= "darkblue"
         >
-            Player Statistics
+            Shoe Info
         </NavLink>
         <NavLink
-            to="/buildaplayer"
+            to="/addshoes"
             style={linkStyles}
             background= "darkblue"  
         >
-            Build a player!
+            Add a shoe!
         </NavLink>
     </div>
   );
